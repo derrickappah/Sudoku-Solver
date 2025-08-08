@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sudoku Solver</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="bg-[var(--background-color)] text-[var(--text-primary)] flex flex-col h-screen">
+    <header class="p-4 flex items-center justify-center shadow-sm">
+        <h1 class="text-xl font-bold text-[var(--text-primary)]">Sudoku Solver</h1>
+    </header>
+    <main class="flex-grow flex flex-col items-center justify-center p-4">
+        <div class="w-full max-w-sm">
+            <div class="sudoku-grid" id="sudoku-grid"></div>
+            <div class="mt-8 flex gap-4">
+                <button id="solve-btn" class="button_primary w-full py-3 text-lg font-bold">Solve</button>
+                <button id="clear-btn" class="button_primary w-full py-3 text-lg font-bold">Clear</button>
+            </div>
+            <p id="message" class="mt-4 text-center text-[var(--text-secondary)]"></p>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
