@@ -24,8 +24,7 @@ A web-based Sudoku solver application built with HTML, CSS (Tailwind CSS), and J
 ## Setup
 
 1. **Clone or Download the Repository**:
-   - Clone the repository: `git clone <repository-url>`
-   - Or download the `index.html` file.
+   - Clone the repository: `git clone https://github.com/derrickappah/Sudoku-Solver`
 
 2. **Dependencies**:
    - The application uses external resources loaded via CDN:
@@ -102,12 +101,3 @@ This project is open-source and available under the [MIT License](LICENSE). Feel
 - Inspired by standard Sudoku solving techniques using backtracking.
 
 ---
-
-### Notes
-
-- This README assumes the project might be hosted on a platform like GitHub. If you’re not using version control, you can ignore the "Clone or Download" section.
-- The `LICENSE` file is referenced but not provided; you can add one (e.g., MIT License) if needed.
-- If you want to add specific sections (e.g., a demo link, screenshots, or contributor guidelines), let me know, and I can update the README.
-- To test, save this as `README.md` in the same directory as `index.html` and view it on GitHub or with a Markdown viewer.
-
-Let me know if you need additional sections, modifications, or help setting up the project!
